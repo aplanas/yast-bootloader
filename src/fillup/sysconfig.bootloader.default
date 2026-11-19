@@ -23,3 +23,18 @@ LOADER_TYPE=""
 LOADER_LOCATION=""
 
 
+## Path:        System/Bootloader
+## Description: Bootloader configuration
+## Type:        list(no,yes,local)
+## Default:     no
+#
+# Boot Unified Kernel Images (UKI) instead of a separate kernel and
+# initrd.  Only for systemd-boot.
+#
+# "yes" uses the UKIs of the kernel packages, signed by the
+# distribution.  "local" builds the UKIs in the system, and signs them
+# with a local key when SECURE_BOOT is "yes".  "no" or empty keeps the
+# separate kernel and initrd.
+#
+UKI=""
+

@@ -1,4 +1,12 @@
 -------------------------------------------------------------------
+Thu Nov 19 13:14:55 UTC 2026 - Alberto Planas <aplanas@suse.com>
+
+- Add UKI to the sysconfig template, to select between the separate
+  kernel and initrd, the UKIs of the distribution or local UKIs
+  (sdbootutil, systemd-boot only)
+- 5.0.43
+
+-------------------------------------------------------------------
 Mon Aug 31 11:56:44 UTC 2026 - Josef Reidinger <jreidinger@suse.com>
 
 - revert "do not suggest grub2-bls if there are other systems"
